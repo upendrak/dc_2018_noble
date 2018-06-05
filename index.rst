@@ -7,6 +7,9 @@ Table of Contents
 
 .. toctree::
    :maxdepth: 1
-   :caption: Atmosphere Cloud
 
    Logging_onto_Cloud
+   The_filesystem
+   Redirection
+   Writing_scripts
+   Project_organization
