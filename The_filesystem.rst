@@ -8,10 +8,35 @@ Learning objectives
 -  Explore the content of files
 -  Learn how to manipulate files
 
-Starting with the shell
------------------------
+Navigating your file system
+---------------------------
 
-Now that we are connected to the CyVerse Atmosphere cloud, we have file directories available to us to explore. Let’s learn a few commands by investigating the folders in the ``dc_sample_data`` directory. But since we don't have directory yet, let's download that data from the datastore
+The part of the operating system responsible for managing files and directories is called the file system. It organizes our data into files, which hold information, and directories (also called “folders”), which hold files or other directories.
+
+Several commands are frequently used to create, inspect, rename, and delete files and directories.
+
+Preparation Magic
+~~~~~~~~~~~~~~~~~
+
+.. Tip ::
+
+   If you type the command: PS1='$ ' into your shell, followed by pressing the Enter key, your window should look like our example in this lesson.
+   This isn’t necessary to follow along (in fact, your prompt may have other helpful information you want to know about). This is up to you!
+
+   $
+
+The dollar sign is a prompt, which shows us that the shell is waiting for input; your shell may use a different character as a prompt and may add information before the prompt. When typing commands, either from these lessons or from other sources, do not type the prompt, only the commands that follow it.
+
+Let’s find out where we are by running a command called ``pwd`` (which stands for “print working directory”). At any moment, our current working directory is our current default directory, i.e., the directory that the computer assumes we want to run commands in unless we explicitly specify something else. Here, the computer’s response is ``/home/upendra_35``, which is the top level directory within our cloud system:
+
+.. code :: bash
+
+   $ pwd
+   /home/upendra_35
+
+Let’s look at how our file system is organized.
+
+Let’s learn a few commands by investigating the folders in the ``dc_sample_data`` directory. But since we don't have directory yet, let's download that data from the datastore
 
 .. code :: bash
 
@@ -33,7 +58,7 @@ Now download the data into that directory
 
    $ wget https://de.cyverse.org/dl/d/CA8E86CA-D089-43AC-93ED-79A257C5815D/osfstorage-archive.zip
 
-.. Note ::
+.. warning ::
 
    It will take few minutes to download the data, depending on the internet connection speed. So please be patient
 
@@ -43,7 +68,11 @@ Once the data is downloaded, you need to uncompress it using ``unzip`` command
 
    $ unzip osfstorage-archive.zip
 
-Now again we 'change directory' into ``dc_sample_data`` folder so that we can investiage it using some basica Linu commands
+.. Note ::
+
+   It will take few minutes to uncompress the data, depending on the internet connection speed. So please be patient
+
+Now again we ``cd`` into ``dc_sample_data`` folder so that we can investiage it using some basic Linux commands
 
 .. code :: bash
 

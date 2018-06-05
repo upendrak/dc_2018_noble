@@ -15,7 +15,7 @@ First, go to the `Atmosphere <https://atmo.cyverse.org/application/images>`_ app
 
 .. important::
 
-  As descrbied in the `pre-workshop setup <../getting_started/installation.html>`_, you need to have access to the CyVerse Atmosphere Cloud. If you are not able to log-in for some reason, please let us know and we will fix it immediately.
+  As descrbied in the `pre-workshop setup <https://upendrak.github.io/2018-06-05-noble>`_, you need to have access to the CyVerse Atmosphere Cloud. If you are not able to log-in for some reason, please let us know and we will fix it immediately.
 
 1. Fill in the username and password and click "LOGIN"
 
@@ -47,23 +47,23 @@ First, go to the `Atmosphere <https://atmo.cyverse.org/application/images>`_ app
 
 |atmo-7|
 
-- Naviagate to "SHOW ALL tab and Search for "DC_Genomics"; click the "DC_Genomics_Noble_2018" image.
+- Naviagate to "Show All tab and Search for "DC_Genomics"; click the "DC_Genomics_Noble_2018" image.
 
 |atmo-8|
 
 - Name your virtual machine something simple such as "workshop" or leave it as default which is the image name and select the following"
 
-* Provider: "CyVerse Cloud - Marana" or "DC_Genomics_Noble"
+	-	Provider: "CyVerse Cloud - Marana" or "DC_Genomics_Noble"
 
-* Instance size: "medium3 (CPU: 4, Mem: 32GB, Disk: 240GB)"
+	- 	Instance size: "medium3 (CPU: 4, Mem: 32GB, Disk: 240GB)"
 
-- Leave rest of the fields as default.
+	- 	Leave rest of the fields as default.
 
 |atmo-9|
 
 - Wait for it to become active
 
-- It will now be booting up! This will take 2-5 minutes. Just wait! Don't reload or do anything.One the virtual machine is ready, the "Status" column will turn green and described as "Active".
+- It will now be booting up! This will take 2-5 minutes. Just wait! Don't reload or do anything.One the virtual machine is ready, the "Status" column will turn green and described as "Active" (see below)
 
 |atmo-10|
 
